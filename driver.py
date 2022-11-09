@@ -1,8 +1,8 @@
-from SafeUT_dropout.DataLoader import DataLoader
+from DataLoader import DataLoader
 import pandas as pd
-from SafeUT_dropout.Vectorizers.Preprocessor import Preprocessor
-from SafeUT_dropout.Vectorizers.TfIdf import Vectorizer
-from SafeUT_dropout.Learners.SVM import SVM
+from Vectorizers.Preprocessor import Preprocessor
+from Vectorizers.TfIdf import Vectorizer
+from Learners.SVM import SVM
 
 ## set hyperparameters to tune the model
 alpha_list = [1e-4, 5e-5, 1e-5, 5e-6, 1e-6]
